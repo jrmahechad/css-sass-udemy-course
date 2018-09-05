@@ -1,0 +1,17 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /*browser font-size is 16px*/
+  /*so we divide 10/16 o maintain the font-size of 10px that we want*/
+  /*rem are supported from IE 11*/
+  // This defines what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing:  border-box;
+}
